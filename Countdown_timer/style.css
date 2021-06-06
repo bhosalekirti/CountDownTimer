@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+}
+.main {
+  background-image: url("newbg.jpg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  font-size: 8vw;
+  font-weight: normal;
+  font-family: "Lobster", cursive;
+  margin: 0;
+}
+.countrdown-continer {
+  display: flex;
+}
+.big-text {
+  font-weight: bold;
+  font-size: 5vw;
+  line-height: 1;
+  margin: 0 2rem;
+  padding-bottom: 1vw;
+}
+.small-text {
+  padding-bottom: 1vw;
+}
+.countdownElem {
+  text-align: center;
+}
+.countdownElem span {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 2.5vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #342e46;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 2rem;
+}
+
+.button:hover {
+  background-color: #000000;
+}
+
+.button:active {
+  background-color: #0d1a44;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h3 {
+  font-size: 2.8vw;
+  text-shadow: 2px 2px 5px #ffffff;
+  font-weight: normal;
+  font-family: "Lobster", cursive;
+  padding-bottom: 1vw;
+}
+.dateIn {
+  display: inline;
+  font-family: "PT Sans", sans-serif;
+  font-size: 2vw;
+  padding: 0.5rem 1rem;
+  background: content-box;
+  padding-bottom: 1vw;
+}
+
+@media screen and (max-width: 540px) {
+  .h1 {
+    font-size: 23px;
+  }
+}
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+    width: 600px;
+  }
+}
+footer {
+  text-align: center;
+  color: rgb(12, 8, 8);
+  font-size: 1.8vw;
+  text-shadow: 2px 2px 5px #ffffff;
+  font-weight: normal;
+  font-family: "Lobster", cursive;
+}
+a {
+  color: rgb(12, 8, 8);
+}

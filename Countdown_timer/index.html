@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountDown Timmer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>New Years Eve</h1>
+      <div class="countrdown-continer">
+        <div class="countdownElem days-c">
+          <p class="big-text" id="days">0</p>
+          <span class="small-text">Days</span>
+        </div>
+        <div class="countdownElem hours-c">
+          <p class="big-text" id="hours">0</p>
+          <span class="small-text">Hours</span>
+        </div>
+        <div class="countdownElem mins-c">
+          <p class="big-text" id="mins">0</p>
+          <span class="small-text">Minitus</span>
+        </div>
+        <div class="countdownElem seconds-c">
+          <p class="big-text" id="seconds">0</p>
+          <span class="small-text">Seconds</span>
+        </div>
+      </div>
+      <h3>
+        Fill below dates if You want to check the countdown from the given
+        dates.
+      </h3>
+      <div class="dateInputDi">
+        <input class="dateIn" type="datetime-local" id="startdate-input" />
+        <input class="dateIn" type="datetime-local" id="endtdate-input" />
+      </div>
+      <input
+        type="button"
+        id="ShowNewYer"
+        class="button"
+        value="Show New Year Countdown again"
+        onclick="reset()"
+      />
+      <footer>
+        <p>
+          Author: Kirti Bhosale<br />
+          <a href="mailto:kirtikashinathb@gmail.com"
+            >kirtikashinathb@gmail.com</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
