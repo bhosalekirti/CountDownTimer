@@ -6,7 +6,7 @@ let inputDate = "";
 let dateConvertedToTimestamp,
   TotalsecondsManul,
   enddateConvertedToTimestamp = "";
-const newYears = "1 Jan 2023";
+const newYears = "1 Jan 2025";
 function countdown() {
   //taking values from coustomer
   var inputDate = document.getElementById("startdate-input").value;
